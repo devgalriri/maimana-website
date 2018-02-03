@@ -32,3 +32,30 @@
     opacity: 1
   .nav-left a, .nav-right a
     color: black
+
+.nav-showing
+  width: auto
+  background: white
+  position: absolute
+  color: $black
+  display: flex
+  justify-content: space-around
+  padding: 50px
+  .image
+    width: 225px
+    height: 330px
+    overflow: hidden
+  .list
+    ul
+      list-style: none
+      display: flex
+      flex-direction: row
+      li
+        font-size: 20px
+        padding: 25px 75px
+        ul
+          display: flex
+          flex-direction: column
+          li
+            font-size: 15px
+            padding: inherit

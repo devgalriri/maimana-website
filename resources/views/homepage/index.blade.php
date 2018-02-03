@@ -4,6 +4,30 @@
     <div class="nav">
       <div class="nav-left">
         <a href="#">products</a>
+        <div class="nav-showing">
+          <div class="image">
+            <img src="../resources/assets/img/cropped.png" alt="">
+          </div>
+          <div class="list">
+            <ul>
+              <li>category
+                <ul>
+                  <li>hijab</li>
+                  <li>scarf</li>
+                  <li>dress</li>
+                </ul>
+              </li>
+              <li>sort by
+                <ul>
+                  <li>hijab</li>
+                  <li>scarf</li>
+                  <li>dress</li>
+                </ul>
+              </li>
+              <li>SALE !</li>
+            </ul>
+          </div>
+        </div>
         <a href="#">lookbook</a>
       </div>
       <a class="nav-center" href="#">maimana</a>

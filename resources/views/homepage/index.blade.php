@@ -10,21 +10,43 @@
           </div>
           <div class="list">
             <ul>
-              <li>category
+              <li><h3>category</h3>
                 <ul>
-                  <li>hijab</li>
-                  <li>scarf</li>
-                  <li>dress</li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+
+
                 </ul>
               </li>
-              <li>sort by
+              <li><h3>sort by</h3>
                 <ul>
-                  <li>hijab</li>
-                  <li>scarf</li>
-                  <li>dress</li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
+                  <li><a href="#">hijab</a></li>
                 </ul>
               </li>
-              <li>SALE !</li>
+              <li>
+                <ul>
+                  <li><a href="#">sale</a></li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>

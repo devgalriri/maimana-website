@@ -14,12 +14,23 @@
   .font-1:hover, .nav .nav-left a:hover, .nav .nav-right a:hover {
     color: whitesmoke; }
 
-.link-reset, .hero .hero-inside a, .section-1 .section-1-txt a, .nav .nav-center {
+.link-reset, .hero .hero-inside a, .section-1 .section-1-txt a, .nav .nav-center, .nav-showing .list ul li ul li a {
   text-decoration: none; }
 
-.move-1, .hero .hero-inside a, .section-1 .section-1-txt, .section-1 .section-1-tiles div, .section-1 .section-1-tiles div:hover span, .section-1 .section-1-tiles div:hover img, .section-1 .section-1-tiles div img, .section-1 .section-1-tiles div span, .nav {
+.link-black, .nav-showing .list ul li ul li a {
+  color: #0e0e0e; }
+  .link-black:hover, .nav-showing .list ul li ul li a:hover {
+    color: #dcc6a9;
+    border-bottom: 1px solid #dcc6a9; }
+
+.link-red {
+  color: red; }
+  .link-red:hover {
+    border-bottom: 1px solid red; }
+
+.move-1, .hero .hero-inside a, .section-1 .section-1-txt, .section-1 .section-1-tiles div, .section-1 .section-1-tiles div:hover span, .section-1 .section-1-tiles div:hover img, .section-1 .section-1-tiles div img, .section-1 .section-1-tiles div span, .nav, .nav-showing {
   transition: 500ms; }
-  .move-1:hover, .hero .hero-inside a:hover, .section-1 .section-1-txt:hover, .section-1 .section-1-tiles div:hover, .section-1 .section-1-tiles div img:hover, .section-1 .section-1-tiles div span:hover, .nav:hover {
+  .move-1:hover, .hero .hero-inside a:hover, .section-1 .section-1-txt:hover, .section-1 .section-1-tiles div:hover, .section-1 .section-1-tiles div img:hover, .section-1 .section-1-tiles div span:hover, .nav:hover, .nav-showing:hover {
     transition: 300ms; }
 
 .btn-default, .hero .hero-inside a {
@@ -203,13 +214,27 @@
     color: black; }
 
 .nav-showing {
+  display: none;
   width: auto;
   background: white;
   position: absolute;
   color: #0e0e0e;
   display: flex;
   justify-content: space-around;
-  padding: 50px; }
+  padding: 50px;
+  position: absolute;
+  top: 74px;
+  box-shadow: 3px 6px 22px -12px #0e0e0e; }
+  .nav-showing::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 0px 0px 50px;
+    position: absolute;
+    top: -7px;
+    left: 40px;
+    transform: rotate(45deg); }
   .nav-showing .image {
     width: 225px;
     height: 330px;
@@ -221,11 +246,18 @@
     .nav-showing .list ul li {
       font-size: 20px;
       padding: 25px 75px; }
+      .nav-showing .list ul li h3 {
+        padding-bottom: 15px;
+        text-transform: uppercase; }
       .nav-showing .list ul li ul {
         display: flex;
-        flex-direction: column; }
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 235px; }
         .nav-showing .list ul li ul li {
           font-size: 15px;
           padding: inherit; }
+          .nav-showing .list ul li ul li a {
+            padding: inherit; }
 
 /*# sourceMappingURL=app.css.map */

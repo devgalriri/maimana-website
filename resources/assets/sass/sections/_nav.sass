@@ -34,6 +34,8 @@
     color: black
 
 .nav-showing
+  display: none
+  @extend .move-1
   width: auto
   background: white
   position: absolute
@@ -41,6 +43,19 @@
   display: flex
   justify-content: space-around
   padding: 50px
+  position: absolute
+  top: 74px
+  box-shadow: 3px 6px 22px -12px $black
+  &::after
+    content: ''
+    width: 15px
+    height: 15px
+    background: white
+    border-radius: 0px 0px 50px
+    position: absolute
+    top: -7px
+    left: 40px
+    transform: rotate(45deg)
   .image
     width: 225px
     height: 330px
@@ -53,9 +68,17 @@
       li
         font-size: 20px
         padding: 25px 75px
+        h3
+          padding-bottom: 15px
+          text-transform: uppercase
         ul
           display: flex
           flex-direction: column
+          flex-wrap: wrap
+          height: 235px
           li
             font-size: 15px
             padding: inherit
+            a
+              padding: inherit
+              @extend .link-reset , .link-black

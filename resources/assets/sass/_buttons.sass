@@ -1,0 +1,53 @@
+.btn-default
+  border: 1px solid $black
+  color: $black
+  top: 25px
+  position: relative
+  text-transform: uppercase
+  font-size: 14px
+  letter-spacing: 0.01em
+  text-align: center
+  &:hover
+    border-color: $grey
+    color: $grey
+
+.link-default
+  color: $black
+  position: relative
+  text-transform: uppercase
+  font-size: 14px
+  letter-spacing: 0.01em
+  text-align: center
+  &:hover
+    color: $grey
+
+.arrow-left
+  &:hover
+    &::after
+      background: $grey
+      left: 210px
+      transition: 300ms
+
+    &::before
+      transition: 300ms
+      left: 300px
+      box-shadow: 1.5px 1.5px 0px 0px $grey
+  &::after
+    content: ''
+    width: 100px
+    top: 23px
+    left: 200px
+    height: 1px
+    position: absolute
+    background: $black
+    transition: 300ms
+  &::before
+    transition: 300ms
+    content: ''
+    width: 10px
+    height: 10px
+    position: absolute
+    top: 19px
+    left: 290px
+    transform: rotate(-45deg)
+    box-shadow: 1.5px 1.5px 0px 0px $black

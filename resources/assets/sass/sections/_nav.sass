@@ -1,0 +1,34 @@
+.nav
+  width: 100vw
+  height: 75px
+  position: fixed
+  font-family: $font-maimana
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+  z-index: 2
+  @extend .move-1
+  .nav-left
+    margin: 25px
+    align-self: center
+    a
+      @extend .font-1, .grid-1
+
+  .nav-right
+    @extend .nav-left
+
+  .nav-center
+    font-size: 30px
+    letter-spacing: 0.1em
+    font-weight: bolder
+    color: black
+    opacity: 0.2
+    @extend .link-reset
+
+.nav-show
+  background: transparentize(white, 0.1)
+  .nav-center
+    opacity: 1
+  .nav-left a, .nav-right a
+    color: black

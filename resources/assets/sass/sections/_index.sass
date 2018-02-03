@@ -1,0 +1,112 @@
+.hero
+  width: 100vw
+  height: 100vh
+  position: relative
+  overflow: hidden
+  background-attachment: fixed
+  background:
+    image: url('../img/img2n.jpg')
+    position: center
+    repeat: no-repeat
+    size: cover
+    attachment: fixed
+  .hero-inside
+    width: 50vw
+    height: 50vh
+    position: absolute
+    top: 40vh
+    left: 25vw
+    text-align: center
+    .slogan
+      color: $black
+      font:
+        family: $font-kicker
+        size: 4rem
+    .kicker
+      font-family: $font-maimana
+      color: transparentize($black, 0.3)
+    a
+      font-family: $font-maimana
+      @extend .link-reset, .move-1, .grid-2, .btn-default, .arrow-left
+
+.section-1
+  height: 80vh
+  padding: 150px 50px
+  position: relative
+  display: flex
+  align-content: center
+  justify-content: space-evenly
+  .section-1-img
+    overflow: hidden
+    width: 35rem
+    height: 40rem
+
+  .section-1-txt
+    width: 400px
+    left: -250px
+    top: 250px
+    position: relative
+    opacity: 0
+    @extend .move-1
+    h1
+      font-family: $font-kicker
+      text-transform: capitalize
+      letter-spacing: 0.02em
+      padding: 5px
+      color: $black
+      font-size: 4rem
+    p
+      position: relative
+      left: 50px
+      padding: 5px
+      font-family: $font-maimana
+      font-size: 1rem
+    a
+      @extend .link-reset, .link-default, .grid-2
+      top: 5px
+      left: 50px
+  .section-1-tiles
+    display: flex
+    position: absolute
+    flex-direction: row
+    top: 650px
+    left: 600px
+    div
+      @extend .move-1
+      width: 10rem
+      height: 13rem
+      margin: 10px
+      display: flex
+      flex-direction: column
+      overflow: hidden
+      opacity: 0
+      transform: translateX(-80px)
+      &:hover span
+        @extend .move-1
+        left: 0px
+
+      &:hover img
+        @extend .move-1
+        transform: scale(1.1)
+        filter: opacity(1)
+      img
+        filter: opacity(0.5)
+        width: 10rem
+        height: 13rem
+        background: pink
+        transform: scale(1)
+        @extend .move-1
+      span
+        position: relative
+        color: $black
+        font-family: $font-maimana
+        top: -35px
+        left: -165px
+        text-align: center
+        padding: 5px
+        @extend .move-1
+        background: transparentize(white,0.3)
+
+.section-3
+  background: white
+  height: 20em

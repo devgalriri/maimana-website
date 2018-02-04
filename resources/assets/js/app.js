@@ -1,12 +1,12 @@
 $(document).ready(function(){
-  var nav = $('.nav .nav-left a').hover();
-  if (nav) {
-    $('.nav-showing').css({
-      'display' : 'block'
-      console.log(hi)
-      
-    });
-  };
+  $('.nav-showing').hide();
+  $('.nav .nav-left .nav-left-link').hover(function(){
+    $('.nav-showing').toggle();
+  });
+  $('.nav-showing').hover(function(){
+    $(this).toggle();
+  });
+
 });
 
 $(window).scroll(function(){
@@ -30,8 +30,8 @@ $(window).scroll(function(){
     });
   } else {
     $('.section-1-txt').css({
-      'opacity' : '0','
-      left' : '-250px'
+      'opacity' : '0',
+      'left' : '-250px'
     });
   }
 

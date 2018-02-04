@@ -1,4 +1,5 @@
 .hero
+  z-index: 2
   width: 100vw
   height: 100vh
   position: relative
@@ -30,6 +31,10 @@
       @extend .link-reset, .move-1, .grid-2, .btn-default, .arrow-left
 
 .section-1
+  margin-bottom: 300px
+
+  background: white
+  z-index: 2
   height: 80vh
   padding: 150px 50px
   position: relative
@@ -67,6 +72,7 @@
       left: 50px
   .section-1-tiles
     display: flex
+    padding-bottom: 50px
     position: absolute
     flex-direction: row
     top: 650px
@@ -108,6 +114,11 @@
         @extend .move-1
         background: transparentize(white,0.3)
 
-.section-3
-  background: white
-  height: 20em
+.footer
+  background: $grey
+  height: 250px
+  width: 100%
+  position: fixed
+  bottom: 0px
+  color: white
+  margin: 0 auto

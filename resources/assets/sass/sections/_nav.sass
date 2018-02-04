@@ -1,4 +1,5 @@
 .nav
+  z-index: 3
   width: 100vw
   height: 75px
   position: fixed
@@ -7,12 +8,11 @@
   flex-direction: row
   justify-content: space-between
   align-items: center
-  z-index: 2
   @extend .move-1
   .nav-left
     margin: 25px
     align-self: center
-    a
+    .nav-left-link , a
       @extend .font-1, .grid-1
 
   .nav-right
@@ -30,17 +30,16 @@
   background: transparentize(white, 0.1)
   .nav-center
     opacity: 1
-  .nav-left a, .nav-right a
+  .nav-left a, .nav-right a, .nav-left .nav-left-link
     color: black
 
+
 .nav-showing
-  display: none
   @extend .move-1
   width: auto
   background: white
-  position: absolute
   color: $black
-  display: flex
+
   justify-content: space-around
   padding: 50px
   position: absolute

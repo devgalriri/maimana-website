@@ -3,53 +3,51 @@
   <div class="content-wrapper">
     <div class="nav">
       <div class="nav-left">
-        <a href="#">products</a>
-        <div class="nav-showing">
-          <div class="image">
-            <img src="../resources/assets/img/cropped.png" alt="">
+        <a class="nav-left-link" href="#">products</a>
+          <div class="nav-showing" style="display: flex">
+            <div class="image">
+              <img src="../resources/assets/img/cropped.png" alt="">
+            </div>
+            <div class="list">
+              <ul>
+                <li><h3>category</h3>
+                  <ul>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                  </ul>
+                </li>
+                <li><h3>sort by</h3>
+                  <ul>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                    <li><a href="#">hijab</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><a href="#">sale</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="list">
-            <ul>
-              <li><h3>category</h3>
-                <ul>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-
-
-                </ul>
-              </li>
-              <li><h3>sort by</h3>
-                <ul>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                  <li><a href="#">hijab</a></li>
-                </ul>
-              </li>
-              <li>
-                <ul>
-                  <li><a href="#">sale</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
         <a href="#">lookbook</a>
       </div>
       <a class="nav-center" href="#">maimana</a>
@@ -90,10 +88,10 @@
         </div>
       </div>
     </div>
-    <div class="section-3">
+    <div class="footer">
+      this is footer yo!
     </div>
   </div>
-</div>
 
 
 @endsection
